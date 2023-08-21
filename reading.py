@@ -34,3 +34,5 @@ def striping_func(data:list):
 #     else:
 #         pass
 
+
+print("test")
