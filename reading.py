@@ -7,7 +7,7 @@ with open("data.json", "r") as json_file:
 
 print(loaded_data)
 
-
+print()
 with open(r"D:\Vaults\Hobby Projects\Hobby Project\data.txt", "r") as file:
 
     for i in file.readlines():
