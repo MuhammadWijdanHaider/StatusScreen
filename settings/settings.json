@@ -1,0 +1,7 @@
+{
+    "end_separator": "]",
+    "start_separator": "[",
+    "in_separator": ",",
+    "hard_limit": 100,
+    "setter": ":"
+}

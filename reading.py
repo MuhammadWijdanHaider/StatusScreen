@@ -1,4 +1,5 @@
 from json import load
+import calculation
 data = []
 tags = []
 
@@ -22,18 +23,20 @@ def striping_func(data:list):
     temp = {}
     for i in data:
         if START_PREFIX in i and END_SUFFIX in i:
-            te = (i.removeprefix(START_PREFIX)).split(SETTER_SPE)
+            te = ((i.removeprefix(START_PREFIX)).removesuffix(END_SUFFIX)).split(SETTER_SPE)
+            
             temp[te[0]] = te[1]
-    for i in temp:
-        print(f"Value: {temp.get(i)}, extension: {type(temp.get(i))}")
+    return temp
         
 
 
-
+dat = {}
 for i in range(len(data)):
     if data[i] == "~Status~":
-        striping_func(data)
+        dat = striping_func(data)
+        print(dat)
     else:
         pass
 
-
+# this block belongs for the calculation
+# calculation.calc(dat)
