@@ -36,3 +36,4 @@ def striping_func(data:list):
 
 
 print("test")
+print("test")
