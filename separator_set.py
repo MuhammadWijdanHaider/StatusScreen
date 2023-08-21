@@ -38,7 +38,7 @@ def json_readLoad(file_path:str = "", data:dict = {}):
 
 text_doc("D:\Vaults\Hobby Projects\Hobby Project\dummy.txt")
 
-json_readLoad(file_path="temp.json")
+# json_readLoad(file_path="temp.json")
 
 
 

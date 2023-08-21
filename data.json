@@ -1,7 +1,7 @@
 {
     "end_separator": "]",
     "start_separator": "[",
-    "in_separator": "@",
+    "in_separator": ",",
     "name": "dad",
-    "setter": "="
+    "setter": ":"
 }
