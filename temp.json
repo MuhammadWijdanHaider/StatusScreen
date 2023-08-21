@@ -1,0 +1,6 @@
+{
+    "end_separator": "]",
+    "start_separator": "[",
+    "in_separator": "@",
+    "setter": "="
+}
